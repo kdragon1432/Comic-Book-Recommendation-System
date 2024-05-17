@@ -1,3 +1,0 @@
-This is a testfile used for github/repo connection testing.
-
-I'm adding more lines to test GitHub Desktop.
