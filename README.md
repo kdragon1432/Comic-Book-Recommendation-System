@@ -23,9 +23,7 @@ Our model does the legwork, saving the user both time and effort. This allows th
 
 Kaggle Marvel Dataset: marvel_comics.csv
 - https://www.kaggle.com/discussions/general/284056
-- Features:
- #   Column             Non-Null Count  Dtype         
----  ------             --------------  -----         
+- Features:     
  0   comic_name         34853 non-null  object        
  1   active_years       34853 non-null  object        
  2   issue_title        34332 non-null  object        
@@ -43,8 +41,6 @@ Kaggle Marvel Dataset: marvel_comics.csv
 ComicVine API Dataset: batman0.csv
 - This dataset is still incomplete. Must use API to gather for information. 
 - However, this dataset has more features than the Marvel Dataset. 
- #   Column                       Non-Null Count  Dtype  
----  ------                       --------------  -----  
  0   aliases                      0 non-null      float64
  1   api_detail_url               200 non-null    object 
  2   associated_images            200 non-null    object 
