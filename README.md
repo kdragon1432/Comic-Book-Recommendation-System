@@ -41,6 +41,7 @@ Kaggle Marvel Dataset: marvel_comics.csv
 ComicVine API Dataset: batman0.csv
 - This dataset is still incomplete. Must use API to gather for information. 
 - However, this dataset has more features than the Marvel Dataset. 
+- Features:
  0   aliases                      0 non-null      float64
  1   api_detail_url               200 non-null    object 
  2   associated_images            200 non-null    object 
