@@ -27,6 +27,7 @@ Our model does the legwork, saving the user both time and effort. This allows th
 - gotham_academy_model.ipynb: This is the test file that we used to test our basic nlp model on a much smaller dataset. 
 - marvel_EDA.ipynb: This is our initial EDA of the marvel dataset. 
 - marvel_rec_model_ipynb: This is notebook where we applied our basic nlp model to the marvel dataset.
+- Kelly_
 
 
 ## DATASETS ##
