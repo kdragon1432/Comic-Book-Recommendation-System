@@ -22,12 +22,11 @@ Our model does the legwork, saving the user both time and effort. This allows th
 
 ## Project Organization ##
 - data folder: this is where all our csv files are
-- **combined_basic_model.ipynb**: This is our current main notebook for SPRINT 2. It contains data gathering, cleaning, preprocessing, EDAs, the basic nlp model and model evaluation!
+- **combined_basic_model.ipynb**: This is our current main notebook for SPRINT 2. It contains data gathering, cleaning, preprocessing, EDAs, the basic nlp model and model evaluation! **We will continue to build on this file.**
 - comicvine_API.ipynb: This is the notebook that contains the API we use to pull data.
 - gotham_academy_model.ipynb: This is the test file that we used to test our basic nlp model on a much smaller dataset. 
 - marvel_EDA.ipynb: This is our initial EDA of the marvel dataset. 
-- marvel_rec_model_ipynb: This is notebook 
-
+- marvel_rec_model_ipynb: This is notebook where we applied our basic nlp model to the marvel dataset.
 
 
 ## DATASETS ##
