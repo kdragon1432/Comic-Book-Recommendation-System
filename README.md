@@ -21,31 +21,14 @@ Our model does the legwork, saving the user both time and effort. This allows th
 
 
 ## Project Organization ##
+- data folder: this is where all our csv files are
 
 
+**DATASETS**
 
-**Datasets**
-
-Kaggle Marvel Dataset: marvel_comics.csv
-- https://www.kaggle.com/discussions/general/284056
-- Features:     
- 0   comic_name         34853 non-null  object    <br />    
- 1   active_years       34853 non-null  object     <br />   
- 2   issue_title        34332 non-null  object       <br /> 
- 3   publish_date       34332 non-null  datetime64[ns]<br />
- 4   issue_description  30301 non-null  object        <br />
- 5   penciler           25398 non-null  object        <br />
- 6   writer             27508 non-null  object        <br />
- 7   cover_artist       12224 non-null  object        <br />
- 8   Imprint            11650 non-null  object        <br />
- 9   Format             32766 non-null  object        <br />
- 10  Rating             12583 non-null  object        <br />
- 11  Price              34853 non-null  float64       <br />
- 12  year               34332 non-null  float64       <br />
-
-ComicVine API Dataset: batman0.csv
+ComicVine API Datasets: data/combined.csv
 - This dataset is still incomplete. Must use API to gather for information. 
-- However, this dataset has more features than the Marvel Dataset. 
+- These datasets have more features that the marvel dataset and is the main
 - Features:
  0   aliases                      0 non-null      float64 <br />
  1   api_detail_url               200 non-null    object <br />
@@ -78,3 +61,20 @@ ComicVine API Dataset: batman0.csv
  28  team_credits                 200 non-null    object <br />
  29  team_disbanded_in            200 non-null    object <br />
  30  volume                       200 non-null    object <br />
+
+Kaggle Marvel Dataset: marvel_comics.csv
+- https://www.kaggle.com/discussions/general/284056
+- Features:     
+ 0   comic_name         34853 non-null  object    <br />    
+ 1   active_years       34853 non-null  object     <br />   
+ 2   issue_title        34332 non-null  object       <br /> 
+ 3   publish_date       34332 non-null  datetime64[ns]<br />
+ 4   issue_description  30301 non-null  object        <br />
+ 5   penciler           25398 non-null  object        <br />
+ 6   writer             27508 non-null  object        <br />
+ 7   cover_artist       12224 non-null  object        <br />
+ 8   Imprint            11650 non-null  object        <br />
+ 9   Format             32766 non-null  object        <br />
+ 10  Rating             12583 non-null  object        <br />
+ 11  Price              34853 non-null  float64       <br />
+ 12  year               34332 non-null  float64       <br />
