@@ -1,4 +1,4 @@
-# Comic Recommendation System #
+# The Comic Book Recommendation System #
 
 ## Project Overview ##
 The comic book industry has been alive and well since the 1940s. With this comes an enormous amount of volumes and issues. That's not even taking account the various reboots, contradicting storylines and similar title names. Altogether, the Marvel and DC fandoms are bethometh messes. 
@@ -18,6 +18,11 @@ The final product should be a simple website created with either HTML/CSS or Rub
 The main service that our solution provides is convenience. The typical reader has to plow through tons of different sites to hunt for descriptions and summaries to decide what to read. This process is even harder for new fans who are not familiar with the comic series. 
 
 Our model does the legwork, saving the user both time and effort. This allows them to effortlessly enjoy reading. 
+
+
+## Project Organization ##
+
+
 
 **Datasets**
 
