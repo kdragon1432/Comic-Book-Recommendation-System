@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title> Comic Book Recommendation System </title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/myStyles.css') }}">
+  </head>
+
+  <body>
+    <h1 id="home_title"> Comic Book Recommendation System </h1>
+    <p>  </p>
+    <br>
+    <form id="form" method="POST" action="/">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.issue_name.label }}<br>
+            {{ form.issue_name(size=32) }}<br>
+            {% for error in form.issue_name.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+
+    <div id="results">
+    {% if issue_name %}
+        <h2> Search Results for: {{ issue_name }} </h2>
+        {% if results is not none and not results.empty %}
+            <ol> <!-- THIS IS THE LIST OF RECOMMENDATIONS  -->
+            {% for index, row in recommendations.iterrows() %}
+                <li><strong>{{ row['name'] }}</strong> <br>
+                    {{ row['description'] }} <br>
+                    <strong>Volume:</strong> {{ row['volume'] }}  <strong> Issue No:</strong> {{ row['issue_number'] }} <br>
+                    <strong>Character Credits: </strong> {{ row['character_credits'] }} <br>
+                    <strong>Team Credits: </strong> {{ row['team_credits'] }}
+                </li><br>
+            {% endfor %}
+            </ol>
+        {% else %}
+            <p>No results found for: {{ issue_name }} </p>
+        {% endif %}
+    {% endif %}
+  </div> <!-- div id="results" -->
+  </body>
+</html>
+
+

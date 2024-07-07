@@ -1,0 +1,9 @@
+<ul>
+                {% for index, row in results.iterrows() %}
+                    <li>
+                        <strong>{{ row['name'] }}</strong><br>
+                        Description: {{ row['description'] }}<br>
+                        Cover Date: {{ row['cover_date'] }}<br>
+                    </li>
+                {% endfor %}
+            </ul>
