@@ -9,10 +9,17 @@ body {
     text-align: center;
     background-color: skyblue;
     border-style: none;
-    padding: 60px 30px 60px 30px;
+    padding: 50px 20px 50px 20px;
     margin: 00px;
     width: max-width;
     font-size: 40px;
+}
+
+#info {
+    text-align: left;
+    padding: 30px;
+    font-size: 14px;
+    background-color: azure;
 }
 
 #form {
@@ -23,7 +30,7 @@ body {
 #issue_name {
     width: 80%;
     height: 50px;
-    font-size:24px;
+    font-size:18px;
     text-indent:20px;
 }
 
@@ -35,8 +42,8 @@ body {
 
 #results {
     text-align: left;
-    padding: 40px;
-    font-size: 16px;
+    padding: 30px;
+    font-size: 14px;
     background-color: azure;
 }
 
@@ -44,18 +51,6 @@ ol > li::marker {
   font-weight: bold;
 }
 
-footer {
-    opacity: 1.0;
-    bottom: 0px;
-    height: 30px;
-    width: 100%;
-    background-color: skyblue;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    font-size: 14px;
-    
-}
 
 
 

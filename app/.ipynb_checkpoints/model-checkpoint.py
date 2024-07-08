@@ -48,9 +48,9 @@ tfidf_vectorizers = [tfidf_des, tfidf_char, tfidf_concept,
 all_matrices = [tfidf_des_matrix, tfidf_char_matrix, tfidf_concept_matrix, 
                tfidf_location_matrix, tfidf_object_matrix, tfidf_person_matrix,
                tfidf_arc_matrix, tfidf_team_matrix, tfidf_vol_matrix]
-weights = [3, 1, 1,
-           1, 1, 1,
-           2, 1, 0]
+weights = [3, 2, 1,
+           1, 0, 1,
+           0, 1, 0]
 # Scale each TF-IDF matrix by its corresponding weight
 weighted_tfidf_matrices = [matrix * weight for matrix, weight in zip(all_matrices, weights)]
 

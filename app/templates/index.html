@@ -7,7 +7,7 @@
 
   <body>
     <h1 id="home_title"> Comic Book Recommendation System </h1>
-    <p>  </p>
+    <p id="info">  </p>
     <br>
     <form id="form" method="POST" action="/">
         {{ form.hidden_tag() }}
@@ -33,9 +33,6 @@
                     <strong>Character Credits: </strong> {{ row['character_credits'] }} <br>
                     <strong>Team Credits: </strong> {{ row['team_credits'] }} <br>
                     <strong>Location Credits: </strong> {{ row['location_credits'] }} <br>
-                    <strong>Object Credits: </strong> {{ row['object_credits'] }} <br>
-                    <strong>Concept Credits: </strong> {{ row['concept_credits'] }} <br>
-                    <strong>Story Arc Credits: </strong> {{ row['story_arc_credits']}} <br>
                     <strong>Person Credits: </strong> {{ row['person_credits'] }}
                 </li><br>
             {% endfor %}
@@ -43,12 +40,43 @@
         {% else %}
             <p>No results found for: {{ issue_name }} </p>
         {% endif %}
+    {% else %}
+        <h2> Here are some DC comic issue names that you can use: </h2>
+        <ul>
+            <li>Robins vs. Zombies: Robin War</li>
+            <li>A Death in the Family Chapter 1 and 2</li>
+            <li>War for the Books of Magic, Part 1</li>
+            <li>The Coming of Atlas, Part 4: Man of Yore, Dog of Tomorrow</li>
+            <li>Growing Pains</li>
+            <li>The Shadow World</li>
+            <li>Funeral for a Friend Part 8: The End</li>
+            <li>Whatever Happened to the Warrior of Truth? Part I</li>
+        </ul>
     {% endif %}
         </div> <!-- div id="results" -->
     </body>
-    <footer>
-        <p><b>Created By: Kelly Dong</b></p>
-    </footer>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
