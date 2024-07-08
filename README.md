@@ -1,20 +1,14 @@
 # Comic Book Recommendation System
 
 ## Project Overview
-The comic book industry has been alive and well since the 1940s. With this comes an enormous amount of volumes and issues. That's not even taking account the various reboots, contradicting storylines and similar title names. Altogether, the DC fandom is a bethometh mess!!!
-
-It is a challenge for vertern fans to navigate, let alone new fans. The question of, `What shall I read next?`, has never been harder to answer!
-
-**Solution**
-Using natural language processing and feature engineering, we will create a model that takes in an issue name that you have read before and output recommendations that are similar to your input 
-
-The final product should be a simple website application created with either HTML/CSS/Flask to present our findings in an easily digestible method. 
-
-**Impact**
-
-The main service that our solution provides is convenience. The typical reader has to plow through tons of different sites to hunt for descriptions and summaries to decide what to read. This process is even harder for new fans who are not familiar with the comic series. 
-
-Our model does the legwork, saving the user both time and effort. This allows them to effortlessly enjoy reading. 
+The comic book industry has been alive and well since the 1940s. With this comes an enormous amount of volumes and issues. That's not even taking account the various reboots, contradicting storylines and similar title names. Altogether, the DC fandom is a bethometh mess!!!<br>
+The typical reader has to plow through tons of different sites to hunt for descriptions and summaries to decide what to read. This process is even harder for new fans who are not familiar with the comic series. 
+<br>
+**Solution**<br>
+Using natural language processing and feature engineering, we will create a model that takes in an issue name that you have read before and output recommendations that are similar to your input <br>
+The final product should be a simple website application created with either HTML/CSS/Flask to present our findings in an easily digestible method. <br>
+**Impact**<br>
+The resulting product will save the user time and energy as they browse for their next comic book. This allows them to efforlessly enjoy reading.
 
 
 
