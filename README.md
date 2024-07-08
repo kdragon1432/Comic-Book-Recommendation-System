@@ -37,31 +37,24 @@
 
 
 ## Dataset
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 6767 entries, 0 to 6766
-Data columns (total 17 columns):
- #   Column                Non-Null Count  Dtype 
----  ------                --------------  ----- 
- 0   character_credits     6767 non-null   object
- 1   character_died_in     6767 non-null   object
- 2   concept_credits       6767 non-null   object
- 3   cover_date            6767 non-null   object
- 4   description           6669 non-null   object
- 5   has_staff_review      6767 non-null   object
- 6   id                    6767 non-null   int64 
- 7   issue_number          6767 non-null   object
- 8   location_credits      6767 non-null   object
- 9   name                  6767 non-null   object
- 10  object_credits        6767 non-null   object
- 11  person_credits        6767 non-null   object
- 12  story_arc_credits     6767 non-null   object
- 13  team_credits          6767 non-null   object
- 14  team_disbanded_in     6767 non-null   object
- 15  volume                6767 non-null   object
- 16  combined_description  6767 non-null   object
-dtypes: int64(1), object(16)
-memory usage: 898.9+ KB
-
+**final_datatset_clean.csv**
+ - 0   character_credits
+ - 1   character_died_in
+ - 2   concept_credits     
+ - 3   cover_date           
+ - 4   description          
+ - 5   has_staff_review     
+ - 6   id                   
+ - 7   issue_number        
+ - 8   location_credits  
+ - 9   name
+ - 10  object_credits
+ - 11  person_credits
+ - 12  story_arc_credits
+ - 13  team_credits
+ - 14  team_disbanded_in
+ - 15  volume
+ - 16  combined_description
 
 
 ## References
