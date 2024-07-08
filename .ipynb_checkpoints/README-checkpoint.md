@@ -24,7 +24,9 @@
 * `02_concat_final_csv.ipynb`
   - notebook where all pulled datasets were combined into one (large) final dataset to use
 * `03_cleaning_final_dataset.ipynb`
-  - notebook where the final dataset was cleaned and 
+  - notebook where the final dataset was cleaned and went through preprocessing/feature engineering in preparation for usage in model
+* `04_final_dataset_EDA.ipynb`
+  - 
 * `README.md`
   - project landing page (this page)
 
