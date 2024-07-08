@@ -37,7 +37,7 @@
 
 
 ## Dataset
-**final_datatset_clean.csv**
+**final_datatset_clean.csv**: pulled from ComicVine API (https://comicvine.gamespot.com/api/)
  - 0   character_credits
  - 1   character_died_in
  - 2   concept_credits     
