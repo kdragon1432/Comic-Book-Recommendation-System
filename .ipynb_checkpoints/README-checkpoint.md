@@ -12,19 +12,19 @@
 ## Project Organization
 * `app`
 * `data`
-  - contains all the datasets that I pulled using ComicVine's API
+  - contains all the datasets pulled using ComicVine's API
   - `final`
-    - contains the final combined and cleanned dataset (of all my pulled data) used in my model
+    - contains the final combined and cleanned dataset (of all pulled data) used in the model
   - `marvel`
-    - contains the marvel dataset that I got on kaggle and used during earlier sprints in my capstone project
+    - contains the marvel dataset found on kaggle and used during earlier sprints in capstone project
 * `old_sprints`
-  - contains powerpoints of my old sprints and zip files with earlier phases of my project
+  - contains powerpoints of old sprints and zip files with earlier phases of the capstone project
 * `01_comicvine_API.ipynb`
-  - notebook that contains the api functions I used to pull my datasets
+  - notebook that contains the api functions used to pull my datasets
 * `02_concat_final_csv.ipynb`
-  - notebook where I combined all the datasets I pulled into one (large) final dataset to use
+  - notebook where all pulled datasets were combined into one (large) final dataset to use
 * `03_cleaning_final_dataset.ipynb`
-  - notebook where I cleaned my final dataset and did some preprocessing and feature engineering in preparation for my model
+  - notebook where the final dataset was cleaned and 
 * `README.md`
   - project landing page (this page)
 
