@@ -1,17 +1,14 @@
 # Comic Book Recommendation System
 
 ## Project Overview
-The comic book industry has been alive and well since the 1940s. With this comes an enormous amount of volumes and issues. That's not even taking account the various reboots, contradicting storylines and similar title names. Altogether, the Marvel and DC fandoms are bethometh messes. 
+The comic book industry has been alive and well since the 1940s. With this comes an enormous amount of volumes and issues. That's not even taking account the various reboots, contradicting storylines and similar title names. Altogether, the DC fandom is a bethometh mess!!!
 
-It is a challenge for vertern fans to navigate. Many new fans are put off by this hurdle. The question of, What shall I read next?, has never been harder to answer!
+It is a challenge for vertern fans to navigate, let alone new fans. The question of, `What shall I read next?`, has never been harder to answer!
 
 **Solution**
+Using natural language processing and feature engineering, we will create a model that takes in an issue name that you have read before and output recommendations that are similar to your input 
 
-Using data science and machine learning, the goal is to create a model that will take in user preferences and output comic recommendations. 
-
-The user’s preferences could be based on a favorite character/team, plotline (action/slice of life), favorite writer or artist, etcetc. Recommendations are also based on similarities to between comics that you have read before. These models will be created using various classification machine learning methods and natural language processing. 
-
-The final product should be a simple website created with either HTML/CSS or Ruby to present our findings in an easily digestible method. 
+The final product should be a simple website application created with either HTML/CSS/Flask to present our findings in an easily digestible method. 
 
 **Impact**
 
