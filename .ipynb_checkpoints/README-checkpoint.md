@@ -4,7 +4,11 @@
 
 
 ## Walkthrough Demo
-
+1) download the `app` folder
+2) run the `app.py` python file
+3) enter `http://127.0.0.1:5000/` into url bar
+4) enter an issue's name and click submit
+5) look at results
 
 ## Project Flowchart
 
@@ -37,7 +41,7 @@
 
 
 ## Dataset
-**final_datatset_clean.csv**: pulled from ComicVine API (https://comicvine.gamespot.com/api/)
+`final_datatset_clean.csv`: pulled from ComicVine API (https://comicvine.gamespot.com/api/)
  - 0   character_credits
  - 1   character_died_in
  - 2   concept_credits     
