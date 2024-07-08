@@ -11,8 +11,6 @@ The final product should be a simple website application created with either HTM
 The resulting product will save the user time and energy as they browse for their next comic book. This allows them to efforlessly enjoy reading.
 
 
-
-
 ## Walkthrough Demo
 1) download the `app` folder
 2) run the `app.py` python file
@@ -44,6 +42,8 @@ The resulting product will save the user time and energy as they browse for thei
   - notebook containing more advance EDA on the final dataset after vectorizing and using average tfidf scores
 * `06_final_rec_model_ipynb`
   - notebook containing the final recommendation model for the project
+* `Kelly_Dong_Sprint3Presentation.pdf`
+  - pdf containing the final sprint presentation for this project
 * `README.md`
   - project landing page (this page)
 
@@ -70,6 +70,8 @@ The resulting product will save the user time and energy as they browse for thei
 
 
 ## References
+- https://comicvine.gamespot.com/api
+- 
 
 
 
