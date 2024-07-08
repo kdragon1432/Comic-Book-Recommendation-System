@@ -10,7 +10,7 @@
 
 
 ## Project Organization
-* 'data'
+* `data`
 
 
 
