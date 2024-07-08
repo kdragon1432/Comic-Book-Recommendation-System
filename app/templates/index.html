@@ -29,9 +29,14 @@
             {% for index, row in recommendations.iterrows() %}
                 <li><strong>{{ row['name'] }}</strong> <br>
                     {{ row['description'] }} <br>
-                    <strong>Volume:</strong> {{ row['volume'] }}  <strong> Issue No:</strong> {{ row['issue_number'] }} <br>
+                    <strong>Volume:</strong> {{ row['volume'] }} &emsp; <strong> Issue No:</strong> {{ row['issue_number'] }} <br>
                     <strong>Character Credits: </strong> {{ row['character_credits'] }} <br>
-                    <strong>Team Credits: </strong> {{ row['team_credits'] }}
+                    <strong>Team Credits: </strong> {{ row['team_credits'] }} <br>
+                    <strong>Location Credits: </strong> {{ row['location_credits'] }} <br>
+                    <strong>Object Credits: </strong> {{ row['object_credits'] }} <br>
+                    <strong>Concept Credits: </strong> {{ row['concept_credits'] }} <br>
+                    <strong>Story Arc Credits: </strong> {{ row['story_arc_credits']}} <br>
+                    <strong>Person Credits: </strong> {{ row['person_credits'] }}
                 </li><br>
             {% endfor %}
             </ol>
@@ -39,8 +44,11 @@
             <p>No results found for: {{ issue_name }} </p>
         {% endif %}
     {% endif %}
-  </div> <!-- div id="results" -->
-  </body>
+        </div> <!-- div id="results" -->
+    </body>
+    <footer>
+        <p><b>Created By: Kelly Dong</b></p>
+    </footer>
 </html>
 
 

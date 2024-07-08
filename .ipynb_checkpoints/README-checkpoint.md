@@ -1,4 +1,6 @@
-# My BrainStation Capstone Project #
+# Comic Book Recommendation System
+=====================================
 
-DC Comics Database
+
+
 

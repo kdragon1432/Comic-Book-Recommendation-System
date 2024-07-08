@@ -44,5 +44,18 @@ ol > li::marker {
   font-weight: bold;
 }
 
+footer {
+    opacity: 1.0;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: skyblue;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    
+}
+
 
 
