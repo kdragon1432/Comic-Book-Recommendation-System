@@ -17,7 +17,8 @@
     - contains the final combined and cleanned dataset (of all my pulled data) used in my model
   - `marvel`
     - contains the marvel dataset that I got on kaggle and used during earlier sprints in my capstone project
-
+* `old_sprints`
+  - contains powerpoints of my old sprints and zip files with earlier phases of my project
 
 
 ## Dataset
