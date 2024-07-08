@@ -26,7 +26,7 @@
 * `03_cleaning_final_dataset.ipynb`
   - notebook where the final dataset was cleaned and went through preprocessing/feature engineering in preparation for usage in model
 * `04_final_dataset_EDA.ipynb`
-  - 
+  - the
 * `README.md`
   - project landing page (this page)
 
