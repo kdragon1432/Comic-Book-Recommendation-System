@@ -1,6 +1,6 @@
 # Comic Book Recommendation System
 
-[3d scatter plot image](Kelly_Dong_Capstone_Screenshots/3d_scatter_plt_of_cosine_sim_after_pca.png) 
+![3d scatter plot image](Kelly_Dong_Capstone_Screenshots/3d_scatter_plt_of_cosine_sim_after_pca.png) 
 
 ## Project Overview
 The comic book industry has been alive and well since the 1940s. With this comes an enormous amount of volumes and issues. That's not even taking account the various reboots, contradicting storylines and similar title names. Altogether, the DC fandom is a bethometh mess!!!<br>
