@@ -1,5 +1,7 @@
 # Comic Book Recommendation System
 
+[{screenshot of my web app}](Kelly_Dong_Capstone_Screenshots/3d_Scatter_plt_of_cosine_sim_after_pca.png) 
+
 ## Project Overview
 The comic book industry has been alive and well since the 1940s. With this comes an enormous amount of volumes and issues. That's not even taking account the various reboots, contradicting storylines and similar title names. Altogether, the DC fandom is a bethometh mess!!!<br>
 The typical reader has to plow through tons of different sites to hunt for descriptions and summaries to decide what to read. This process is even harder for new fans who are not familiar with the comic series. 
