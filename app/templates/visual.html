@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title> Comic Book Recommendation System </title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/myStyles.css') }}">
+
+</head>
+
+<body>
+    <h1 id="home_title"> Comic Book Recommendation System </h1>
+    <div id="header_bar" class="header-bar">
+        <a href="/">Home</a>
+        <a href="/visual">Visuals</a>
+    </div>
+
+    <h1 id="just_text"> 3D Scatter Plot of Cosine Similarity after PCA Transformation </h1>
+    <div id="plt_3dscatter">
+       {{ plt_3dscatter | safe }}
+    </div>
+    <br>
+    <h1 id="just_text"> Cosine Similarity Heatmap </h1>
+    <div id="just_text"> Red is hotter and thus more similar. Blue is cooler and thus less similar/more different. </div> <br>
+    <div id="heatmap">
+        <img src="{{ url_for('static', filename='graph1.png') }}" alt="Graph"> <br>
+    </div>
+    
+    <br><br><br><br><br>
+</body>
+
+
+</html>

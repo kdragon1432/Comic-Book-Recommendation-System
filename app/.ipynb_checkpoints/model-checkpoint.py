@@ -4,8 +4,14 @@ import numpy as np
 from collections import Counter
 import matplotlib.pyplot as plt
 import seaborn as sns
+import plotly.express as px
+import plotly.graph_objects as go
 import json
+from io import BytesIO
+import base64
 
+from sklearn.decomposition import PCA
+from mpl_toolkits.mplot3d import Axes3D
 from bs4 import BeautifulSoup
 
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -69,3 +75,29 @@ def get_recommendations(df, title, cosine_sim=cosine_sim):
         return df.iloc[issue_indices]
     except IndexError:
         return pd.DataFrame(columns=['name', 'issue_number', 'description'])
+
+pca = PCA(n_components=3)
+cosine_sim_pca = pca.fit_transform(cosine_sim)
+cos_df = pd.DataFrame(cosine_sim_pca, columns=['PCA Component 1', 'PCA Component 2', 'PCA Component 3'])
+cos_df['comic_name'] = df['name']
+cos_df['volume'] = df['volume']
+cos_df['character_credits'] = df['character_credits']
+cos_df['description'] = df['description']
+cos_df['issue_number'] = df['issue_number']
+fig = plt.figure(figsize=(80, 64))
+fig = px.scatter_3d(cos_df, x='PCA Component 1', y='PCA Component 2', z='PCA Component 3',
+                color='volume',  # Color points based on 'volume'
+                hover_data={'comic_name': True, 'volume': True, 'character_credits': False, 'description':False, 'issue_number':True},
+                title='3D Scatter Plot of Cosine Similarity after PCA Transformation')
+fig.update_layout(
+    hovermode='closest',  # Show hover info for closest point
+    hoverlabel=dict(bgcolor="white", font_size=16),
+    width=int(1400), height=int(1000))
+plt_3dscatter = fig.to_html(full_html=False)
+
+
+
+
+
+
+
