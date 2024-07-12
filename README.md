@@ -1,7 +1,7 @@
 # Comic Book Recommendation System
 
 <p float="left">
-  <img src="Kelly_Dong_Capstone_Screenshots/web_app.png" alt="screenshot of my web app" width="55%" />
+  <img src="Kelly_Dong_Capstone_Screenshots/web_app.png" alt="screenshot of my web app" width="50%" />
   <img src="Kelly_Dong_Capstone_Screenshots/3d_scatter_plt_of_cosine_sim_after_pca.png" alt="3d scatter plot image" width="45%" />
 </p>
 
